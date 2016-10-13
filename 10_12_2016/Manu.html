@@ -1,0 +1,144 @@
+<!--Main document of web page goes here -->
+<!DOCTYPE HTML>
+<!--Default HTML language to english -->
+<html lang="en">
+
+    <!--Head of webpage goes here -->
+	<head>
+
+        <!--Title of Webpage named as employeeForm -->
+		<title>
+			EmployeeForm
+		</title>
+
+		<!--Style is used to write CSS styles on the html itself -->
+		<style type="text/css"></style>
+
+		<!--Script is used to write Javascript in html itself -->
+		<script type="text/javascript"></script>
+
+		<!--Link is used to link an external source it may be either Javascript or CSS-->
+		<link rel="stylesheet" type="text/css" href="">
+
+		<!--Base is used to specify the base URL -->
+		<base>
+
+		<!--Meta is used to describe more meta information which are not covered by body and other head -->
+		<meta name="Description" content="This is the application for candidates who are looking for Front-end Development positions"/>
+		<meta name="keywords" content="EmployeeForm,FrontEndDevelopment,UI/UX Developer,UI/UX Designer,ScrumMaster,BusinessAnalyst,UI TeamLead"/>
+		<meta charset="UTF-8"/>
+	</head>
+
+    <!--Body of webpage goes here -->
+	<body>
+
+		<!--Main article for forms-->
+		<article>
+
+			<!--Page header -->
+			<header>
+				<h1>Fill out this application form</h1>
+			</header>
+
+			<!--Main body of webpage -->
+		    <section>
+
+		    	<!--employeeForm -->
+		    	<form name="employeeForm">
+
+		    		<!--First Name -->
+		    		<div>
+		    			<label for="firstName">Enter your Firstname :</label>
+		    			<input type="text" id="firstName" name="firstName" placeholder="Barack">
+		    		</div>
+		    		<br>
+
+		    		<!--Last Name -->
+		    		<div>	
+		    			<label for="lastName">Enter your Lastname :</label>
+		    			<input type="text" id="lastName" name="lastName" placeholder="Obama">
+		    		</div>
+		    		<br>
+
+		    		<!--Dropdown menu for Middle Name -->
+		    		<div>
+		    			<label for="dropdown">Middlename :</label>
+		    			<select name="dropdown">
+		    				<option value="optional">Optional</option>
+		    				<option value="senior">Sr</option>
+		    				<option value="Junior">Jr</option>
+		    				<option value="First">I</option>
+		    				<option value="Second">II</option>
+		    				<option value="Third">III</option>
+		    			</select>
+		    		</div>
+		    		<br>
+
+		    		<!--Gender -->
+		    		<div>
+		    			<label for="gender">Applicants Gender :</label>		
+		    			<div id="gender">
+		    				<label for="male">Male</label>
+		    				<input type="radio" id="male" name="gender" value="Male">
+		    				<label for="female">Female</label>
+		    				<input type="radio" id="female" name="gender" value="Female">
+		    				<label for="other">Other</label>
+		    				<input type="radio" id="other" name="gender" value="Other">	
+		    			</div>
+		    		</div>
+		    		<br>
+
+		    		<!--Mobiel Number-->
+		    		<div>			
+		    			<label for="phonenumber">Mobile Number :</label>
+		    			<input type="tel" id="phonenumber" name="phonenumber" placeholder="(555) 555-5555">
+		    		</div>
+		    		<br>
+
+		    		<!--Email and Password Fields -->
+		    		<div>
+		    			<label for="eMail">Email :</label>
+		    			<input type="email" id="eMail" name="eMail" placeholder="someone@example.com">
+		    			<label for="Password">Password:</label>
+		    			<input type="password" id="Password" name="Password" placeholder="**********">
+		    		</div>
+		    		<br>
+
+		    		<!--Different types of positions applicant looking for, used checkbox -->
+		    		<div>
+		    			<h4>Position you are looking for</h4>
+		    			<label for="jobLookingFor">Check all that apply</label>
+		    			<div id="jobLookingFor">
+		    				<label for="scrummaster">Scrum Master</label>
+		    				<input type="checkbox" id="scrummaster" name="jobLookingFor" value="scrummaster">
+		    				<label for="businessAnalyst">Business Analyst</label>
+		    				<input type="checkbox" id="businessAnalyst" name="jobLookingFor" value="businessAnalyst">
+		    				<label for="uiTeamLead">Team Lead UI</label>
+		    				<input type="checkbox" id="uiTeamLead" name="jobLookingFor" value="uiTeamLead">
+		    				<label for="UiUxDesigner">UI/UX Designer</label>
+		    				<input type="checkbox" id="UiUxDesigner" name="jobLookingFor" value="UiUxDesigner">
+		    				<label for="UiUxDeveloper">UI/UX Developer</label>
+		    				<input type="checkbox" id="UiUxDeveloper" name="jobLookingFor" value="UiUxDeveloper">
+		    			</div>
+		    		</div>
+		    		<br>
+
+		    		<!--Submit Button -->
+		    		<button type="submit" id="submit">
+		    			<span>Submit</span>
+		    		</button>
+
+		    		<!--Reset/Cancel Button -->
+		    		<button type="reset" id="reset">
+		    			<span>Cancel</span>
+		    		</button>
+		    	</form>
+		    </section>
+
+		    <!--footer of page -->
+		    <footer>
+		    	<h1>I am at the bottom </h1>
+		    </footer>
+		</article>
+	</body>
+</html>	
