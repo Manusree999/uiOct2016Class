@@ -1,0 +1,62 @@
+/*border represents border-width,border-style,border-color respectively*/
+/*border-radius is used to add rounded borders*/
+form {
+	border: 2px solid #ea2e3b ;
+	border-radius: 5px;
+
+}
+/*we can call Id's by using "#idselector"*/
+#submit{
+	background-color: #47bcf3;
+}
+
+#reset{
+	background-color: #dc2416;
+}
+
+/*I am not sure whether calling these many classes and Ids were correct or wrong*/
+#firstName{
+	position: relative;
+	top: 0px;
+	bottom: 20px;
+	right: 0px;
+	display: block;
+}
+#lastName{
+	position: relative;
+	top: 0px;
+	bottom: 20px;
+	right: 0px;
+	display: block;
+}
+#phonenumber{
+	position: relative;
+	top: 0px;
+	bottom: 20px;
+	right: 0px;
+	display: block;
+}
+#eMail{
+	position: relative;
+	top: 0px;
+	bottom: 20px;
+	right: 0px;
+	display: block;
+}
+#Password{
+	position: relative;
+	top: 20px;
+	bottom: 20px;
+	right: 70px;
+}
+/*we can call classe's by using "(.) class selector"*/
+.dropdown{
+	position: relative;
+	top: 20px;
+	bottom: 20px;
+	right: 92px;
+}
+.gen{
+	position: relative;
+	right: -170px;
+}
