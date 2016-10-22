@@ -39,6 +39,7 @@ input[type="submit"]{
 	padding-right: 10px;
 	margin: 10px;
 	font-weight: bold;
+	color: white;
 }
 input[type="reset"]{
 	background-color: #f73505;
@@ -47,9 +48,10 @@ input[type="reset"]{
 	padding-right: 10px;
 	margin: 10px;
 	font-weight: bold;
+	color: white;
 	
 }
-li{
+li {
 	list-style-type: none;
 	float: left;
 	margin: 5px;
@@ -57,6 +59,7 @@ li{
 	font-weight: bold;
 	display: block;
 	font-size: 20px;
+	
 
 }
 
