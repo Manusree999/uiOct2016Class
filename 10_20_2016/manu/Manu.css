@@ -1,0 +1,112 @@
+header{
+	position: fixed;
+	width: 100%;
+	top:0px;
+	left:0px;
+}
+body{
+	background-image: url(hal.jpg);
+	background-size: 1000px ;
+
+}
+ul{
+	list-style-type: none;
+	margin:0px ;
+	padding: 0px 0px 0px 425px;
+	overflow: hidden;
+	background-color: #e37b15;
+	border: 1px solid #01184f;
+	
+}
+li{
+	float: left;
+	font-style: oblique;
+	font-size: 20px;
+
+}
+li a{	
+    display: block;
+    padding: 15px;
+    color: #e5f80f;
+    text-align: center;
+}
+li:hover{
+background-color: #84440e;
+}
+a:hover{
+	color:#8df60b;
+}
+form{
+	border: 3px solid #01184f;
+	display: inline-block;
+	border-radius:7px;
+	padding: 20px;
+	margin: 120px 20px ;
+	background-color: #e37b15;
+	margin-bottom: 
+
+}
+label{
+	display: block;
+	margin: 7px;
+	font-size: 20px;
+	font-style: italic;
+}
+input{
+	text-align: center;
+	padding: 5px;
+	border-radius: 7px;
+	border:2px solid #01184f ;
+}
+input:focus{
+	background-color:#e5f80f;
+	color:#01184f;
+	border:2px solid #c7d8fe;
+}
+input[type="submit"]{
+	margin: 10px;
+	padding:5px 15px ;
+	background-color: #739cfd;
+}
+input[type="reset"]{
+	margin: 10px;
+	padding:5px 15px ;
+	background-color:#ff0d08;
+}
+
+input[type="submit"]:hover{
+	border :5px solid #ff0000;
+	background-color: #edfb06;
+}
+input[type="reset"]:hover{
+	border :5px solid #edfb06;
+	background-color: #86fc11;
+}
+
+footer{
+	position: fixed;
+	width: 100%;
+	bottom:0px;
+	left:0px
+
+}
+
+div > label:hover{
+	color: #e5f80f;
+}
+div +p{
+	color: #fef2f3;
+	font-weight: bold;
+}
+div ~p{
+	font-family: Arial;
+	font-style: oblique;
+}
+div >p{
+	color: #040300;
+	font-size: 20px;
+	font-style: italic;
+}
+div>p:hover{
+	font-size: 50px;
+}
